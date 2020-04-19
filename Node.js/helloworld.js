@@ -1,5 +1,6 @@
 // 테스트 예제
-// console 전역객체
+//  - console 전역객체 사용법
+//  - JavaScript Object 객체 사용 및 객체 console 출력
 
 console.log("node.js를 시작합니다.")
 console.log('문자열 출력 = %s', 'abcdef');
