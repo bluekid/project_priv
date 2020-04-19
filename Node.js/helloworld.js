@@ -1,8 +1,8 @@
-// 전역객체 : console
+// 테스트 예제
+// console 전역객체
+
 console.log("node.js를 시작합니다.")
-
 console.log('문자열 출력 = %s', 'abcdef');
-
 console.log('숫자 출력 = %d', 1234);
 
 // JavaScript Object
@@ -11,11 +11,11 @@ var person = {
     age:45
 };
 
-// 전역객체 : console
-// console.log : JavaScript Object
+// console 자바 객체 로그 출력
 console.log( 'JavaScript Object = %j', person );
 
-console.dir(person);
+// console 객체 로그
+console.dir( person );
 
 // 전역객체 : console
 // console.time & console.timeend
