@@ -12,29 +12,29 @@ var person = {
     age:45
 };
 
-// console 자바 객체 로그 출력
-console.log( 'JavaScript Object = %j', person );
+// console 자바스크립트 객체 로그 출력
+console.log( '자바스크립트 객체입니다. %j', person );
 
 // console 객체 로그
 console.dir( person );
 
 // 전역객체 : console
 // console.time & console.timeend
-console.time('time_duration')
+console.time('duration_time')
 
 var result = 0;
 for(var i = 1; i < 10000; i++) {
     result += i;
 }
 
-console.timeEnd('time_duration');
+console.timeEnd('duration_time');
 
 // 전역변수 : __filename, __dirname
-console.log('전역변수 __filename = ' + __filename);
-console.log('전역변수 __dirname = ' + __dirname);
+console.log('전역변수 파일이름 = ' + __filename);
+console.log('전역변수 디렉토리 이름 = ' + __dirname);
 
 // 전역객체 : process, 전역변수 : 
-console.log('argv 파라미터 갯수 = ' + process.argv.length);
+console.log('argv 속성의 파라미터 수 = ' + process.argv.length);
 console.dir(process.argv);
 
 process.argv.forEach(element => {
